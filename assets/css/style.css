@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Segoe UI";
-    src: url("/assets/font/SegoeUI.ttf");
+    src: url("../font/SegoeUI.ttf");
 }
 @font-face {
     font-family: "Segoe UI";
-    src: url("/assets/font/SegoeUIBold.ttf");
+    src: url("../font/SegoeUIBold.ttf");
     font-weight: bold;
 }
 *{
@@ -127,7 +127,7 @@ a {
 
  .banner1{
     height:650px;
-    background-image: url('/assets/img/banner1.png');
+    background-image: url('../img/banner1.png');
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,42 +227,42 @@ a {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("/assets/img/1.jpeg") no-repeat center;
+    background: url("../img/1.jpeg") no-repeat center;
     background-size: contain;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("/assets/img/2.png") no-repeat center;
+    background: url("../img/2.png") no-repeat center;
     background-size: contain;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("/assets/img/3.jpg") no-repeat center;
+    background: url("../img/3.jpg") no-repeat center;
     background-size: contain;
 }
 
 .section-products #product-4 .part-1::before {
-    background-image: url("/assets/img/4.jpg");
+    background-image: url("../img/4.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .section-products #product-5 .part-1::before {
-    background: url("/assets/img/5.jpg") no-repeat center;
+    background: url("../img/5.jpg") no-repeat center;
     background-size: contain;
 }
 .section-products #product-6 .part-1::before {
-    background: url("/assets/img/6.jpg") no-repeat center;
+    background: url("../img/6.jpg") no-repeat center;
     background-size: contain;
 }
 .section-products #product-7 .part-1::before {
-    background: url("/assets/img/7.jpg") no-repeat center;
+    background: url("../img/7.jpg") no-repeat center;
     background-size: contain
     ;
 }
 .section-products #product-8 .part-1::before {
-    background: url("/assets/img/8.jpg") no-repeat center;
+    background: url("../img/8.jpg") no-repeat center;
     background-size: contain;
 }
 .single-product{
